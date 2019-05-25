@@ -60,10 +60,6 @@ export class HeroesService {
 
 	}
 
-  
-  getHeroes():Heroe[]{
-    return this.heroes;
-  }
 
 	getHeroes():Heroe[]{
 		return this.heroes;
@@ -75,7 +71,7 @@ export class HeroesService {
 
 
 
-  buscarHeroe(termino:string):Heroe[]{
+  buscarHeroes(termino:string):Heroe[]{
          let heroesArr:Heroe[]=[];
 
          termino=termino.toLowerCase();
